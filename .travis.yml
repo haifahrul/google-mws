@@ -6,4 +6,4 @@ script:
 install:
  — npm install -g firebase-tools
 after_success:
- — firebase deploy — project haifahrul-mws — token 1/LQ2VIR-kKO9n7LLZ_7QrAQ-rxsfw7IBsXl1Gvxh_3UI
+ — firebase deploy — project haifahrul-mws — token "1/koRf3xofpQZV86B7RgudCGgamqgog9fNC6hDZkJmrYw"
