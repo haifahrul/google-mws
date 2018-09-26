@@ -1,56 +1,37 @@
-body {
-  background: #eceff1;
-  color: rgba(0, 0, 0, 0.87);
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+.container {
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px 100px; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30px 100px 100px 100px 30px;
+  /* grid-template-rows: repeat(3, 33.3vh); */
+  grid-gap: 4px;
+  /* width: 100%; */
 }
 
-#message {
-  background: white;
-  max-width: 360px;
-  margin: 100px auto 16px;
-  padding: 32px 24px;
-  border-radius: 3px;
+.menu {
+  background: #59f7fa;
+  /* Sebelum disederhanakan */
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  /* grid-column-start & grid-column-end 
+   * dapat disederhanakan seperti code dibawah ini
+   */
+  grid-column: 1/5;
 }
 
-#message h2 {
-  color: #ffa100;
-  font-weight: bold;
-  font-size: 16px;
-  margin: 0 0 8px;
+.sidebar {
+  background: #88f3cd;
+  grid-row: 2/5;
+  grid-column: 1/2;
 }
 
-#message h1 {
-  font-size: 22px;
-  font-weight: 300;
-  color: rgba(0, 0, 0, 0.6);
-  margin: 0 0 16px;
+.konten {
+  background: #abf2b6;
+  grid-column: 2/5;
 }
 
-#message p {
-  line-height: 140%;
-  margin: 16px 0 24px;
-  font-size: 14px;
-}
-
-/* #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; } */
-/* #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); } */
-#load {
-  color: rgba(0, 0, 0, 0.4);
-  text-align: center;
-  font-size: 13px;
-}
-
-@media (max-width: 600px) {
-  body,
-  #message {
-    margin-top: 0;
-    background: white;
-    box-shadow: none;
-  }
-
-  body {
-    border-top: 16px solid #ffa100;
-  }
+.footer {
+  background: #ffe975;
+  grid-column: 1/5;
+  grid-row: 5/5;
 }
