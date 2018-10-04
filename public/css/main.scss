@@ -17,6 +17,13 @@ body {
   width: 100%;
 }
 
+@media screen and (min-width: 981px) {
+  .container {
+    width: 35%;
+    margin: auto;
+  }
+}
+
 .box {
   color: $primary-text-color;
   font-family: $main-font;
