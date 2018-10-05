@@ -1,31 +1,33 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Task Calculate 2 Numbers</title>
-    <style>
-        input {
-            font-size: 1.2em;
-            margin: 10px
-        }
-        .result {
-            background: #eeeeee;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="./css/project1.css">
 </head>
 
 <body>
-    <h1>Task Calculate 2 Numbers</h1>
-    <div class="calculate">
-        <input type="number" />
-        &nbsp; + &nbsp;
-        <input type="number" />
-        &nbsp;
-        <button> = </button>
-        &nbsp;
-        <input class="result" type="text" readonly />
+    <div class="container">
+        <div class="header align-center" w3-include-html="../header-back.html"></div>
+        <h1>Task Calculate 2 Numbers</h1>
+        <div class="calculate">
+            <input type="number" />
+            &nbsp; + &nbsp;
+            <input type="number" />
+            &nbsp;
+            <button> = </button>
+            &nbsp;
+            <input class="result" type="text" readonly />
+        </div>
+        <div class='footer align-center text-center' w3-include-html="../footer.html"></div>
     </div>
-    <script src="js.js"></script>
+    <script src="project1.js"></script>
+    <script src="../js/app.js"></script>
+    <script>
+        includeHTML();
+    </script>
 </body>
 
 </html>
