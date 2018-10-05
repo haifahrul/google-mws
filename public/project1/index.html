@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Task Calculate 2 Numbers</title>
+    <title>Project 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
@@ -13,16 +13,21 @@
         <div class="header align-center" w3-include-html="../header-back.html"></div>
         <div class="wrap">
             <div class="title align-center text-center">
-                Task Calculate 2 Numbers
+                Menambahkan Dua Angka
             </div>
             <div class="calculate">
-                <input type="number" />
-                &nbsp; + &nbsp;
-                <input type="number" />
-                &nbsp;
-                <button> = </button>
-                &nbsp;
-                <input class="result" type="text" readonly />
+                <div class="align-center">
+                    <input type="number" name="input1" />
+                </div>
+                <div class="align-center">
+                    <input type="number" name="input2" />
+                </div>
+                <div class="align-center operator">
+                    <span class="line"></span>
+                    <!-- <i class="fas fa-plus fa-lg"></i> -->
+                    <span class="icon-plus"><i class="fas fa-plus fa-lg"></i></span>
+                </div>
+                <div id="result" class="result"></div>
             </div>
         </div>
         <div class='footer align-center text-center' w3-include-html="../footer.html"></div>
