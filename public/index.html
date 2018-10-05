@@ -9,15 +9,7 @@
 
 <body>
   <div class="container">
-    <div class='header align-center'>
-      <div class="text-center">
-        <i class="header-icon fab fa-google"></i>
-        <span class="fz-24 bold">
-          Developer Kejar <br>
-          <i class="fz-17">Mobile Web Specialist</i>
-        </span>
-      </div>
-    </div>
+    <div class="header align-center" w3-include-html="header.html"></div>
     <div class='sidebar'>
       <div class="avatar">
         <img src="./images/avatar.png">
@@ -66,6 +58,11 @@
     };
     firebase.initializeApp(config);
   </script>
+  <script src="./js/app.js"></script>
+  <script>
+    includeHTML();
+  </script>
+
 </body>
 
 </html>
