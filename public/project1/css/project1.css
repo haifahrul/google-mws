@@ -1,3 +1,14 @@
+.calculate {
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+
+.calculate input {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
 .result {
-  background: #eeeeee;
+  background: #c5cae9;
+  color: #303f9f;
 }

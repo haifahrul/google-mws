@@ -1,9 +1,15 @@
 @import "../../css/_common.scss";
 
-input {
-  // font-size: 1.2em;
-  // margin: 10px;
+.calculate {
+  background: $color-white;
+  margin-bottom: 20px;
+  input {
+    font-size: 1.2em;
+    margin: 10px;
+  }
 }
+
 .result {
-  background: #eeeeee;
+  background: $primary-color-light;
+  color: $primary-color-dark;
 }
