@@ -8,21 +8,13 @@ body {
   padding: 0;
 }
 
-.container {
+.main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  // grid-template-rows: 80px 100px 100px 100px 90px;
   grid-template-rows: 10vh 15vh 13vh;
   grid-gap: 4px;
   width: 100%;
   height: 100%;
-}
-
-@media screen and (min-width: 981px) {
-  .container {
-    width: 35%;
-    margin: auto;
-  }
 }
 
 .title {
@@ -120,6 +112,9 @@ body {
   background: $primary-color-dark;
   grid-column: 1/5;
   padding: 10px;
+  // position: absolute;
+  // top: 0;
+  z-index: 1000;
   .header-icon {
     font-size: 35px;
     padding: 0 15px 0 5px;
@@ -155,7 +150,8 @@ body {
   bottom: 0;
   width: 100%;
   // height: 46px;
-  // max-width: 480px;
+  max-width: 100%;
+  z-index: 1000;
   a {
     color: white;
     text-decoration: none;
@@ -169,3 +165,14 @@ body {
   }
 }
 /* End Footer */
+
+// CSS Mobile
+@media screen and (min-width: $min-width-mobile) {
+  .main {
+    width: $width-mobile;
+    margin: auto;
+  }
+  .footer {
+    width: $width-mobile;
+  }
+}

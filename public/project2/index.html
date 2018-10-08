@@ -13,15 +13,25 @@
     crossorigin=""></script>
 
   <!-- Load CSS -->
-  <link rel="stylesheet" href="./css/style.css">
-
+  <link href="../css/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="./css/project2.css">
   <title>Leaflet</title>
 </head>
 
 <body>
-  <div id="map"></div>
-
-  <script src="./js/app.js"></script>
+  <div class="main">
+    <div class="header align-center" w3-include-html="../header-back.html"></div>
+    <div class="wrap">
+      <div id="map"></div>
+    </div>
+    <div class='footer align-center text-center' w3-include-html="../footer.html"></div>
+  </div>
+  <script src="../js/app.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    includeHTML();
+  </script>
 </body>
 
 </html>

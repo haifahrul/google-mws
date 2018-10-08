@@ -6,20 +6,13 @@ body {
   padding: 0;
 }
 
-.container {
+.main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 10vh 15vh 13vh;
   grid-gap: 4px;
   width: 100%;
   height: 100%;
-}
-
-@media screen and (min-width: 981px) {
-  .container {
-    width: 35%;
-    margin: auto;
-  }
 }
 
 .title {
@@ -121,6 +114,7 @@ body {
   background: #303f9f;
   grid-column: 1/5;
   padding: 10px;
+  z-index: 1000;
 }
 
 .header .header-icon {
@@ -156,6 +150,8 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  max-width: 100%;
+  z-index: 1000;
 }
 
 .footer a {
@@ -172,3 +168,12 @@ body {
 }
 
 /* End Footer */
+@media screen and (min-width: 880px) {
+  .main {
+    width: 45%;
+    margin: auto;
+  }
+  .footer {
+    width: 45%;
+  }
+}
