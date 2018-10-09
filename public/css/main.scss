@@ -58,6 +58,12 @@ body {
   }
 }
 
+.boxed {
+  color: $primary-text-color;
+  font-family: $main-font;
+  padding: 10px 20px;
+}
+
 .text-center {
   align-items: center;
   display: flex;

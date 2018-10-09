@@ -3,19 +3,34 @@
 <head>
   <title>CSS Grid</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/firebase.css">
+  <link href="../css/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>My Course</title>
 </head>
 
 <body>
-  <div class="message">
-    <h1>CSS Grid</h1>
-    <p>
-      <ol>
-        <li><a href="./tutorial/index.html">Tutorial</a></li>
-        <li><a href="./task/index.html">Tugas</a></li>
-      </ol>
-    </p>
+  <div class="main">
+    <div class="header align-center" w3-include-html="../header-back.html"></div>
+    <div class="wrap">
+      <div class="title align-center text-center">
+        My Course
+      </div>
+      <div class="boxed content">
+        <h4>CSS Grid</h4>
+        <p>
+          <ol>
+            <li><a href="./tutorial/index.html">Tutorial</a></li>
+            <li><a href="./task/index.html">Tugas</a></li>
+          </ol>
+        </p>
+      </div>
+    </div>
+    <div class='footer align-center text-center' w3-include-html="../footer.html"></div>
   </div>
+  <script src="../js/app.js"></script>
+  <script>
+    includeHTML();
+  </script>
 </body>
 
 </html>
