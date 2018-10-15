@@ -100,7 +100,8 @@ body {
   grid-row: 2/5;
   grid-column: 1/2;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  padding-top: 20px;
   .avatar {
     display: flex;
     justify-content: center;
