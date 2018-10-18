@@ -1,6 +1,5 @@
-const staticCachesName = 'static-v10'
+const staticCachesName = 'haifahrul-mws.firebaseapp.com'
 const fileToCaches = [
-  '/',
   '/index.html',
   '/header.html',
   '/header-back.html',
