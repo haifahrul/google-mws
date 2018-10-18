@@ -1,4 +1,4 @@
-const staticCachesName = 'haifahrul-mws.firebaseapp.com'
+const staticCachesName = 'haifahrul-mws.firebaseapp.com';
 const fileToCaches = [
   '/index.html',
   '/header.html',
@@ -12,7 +12,7 @@ const fileToCaches = [
   '/images/logo.png',
   '/project1/css/project1.css',
   '/project1/index.html',
-  '/project2/css/project1.css',
+  '/project2/css/project2.css',
   '/project2/index.html'
 ];
 
