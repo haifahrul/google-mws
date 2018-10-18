@@ -13,7 +13,12 @@ const fileToCaches = [
   '/project1/css/project1.css',
   '/project1/index.html',
   '/project2/css/project2.css',
-  '/project2/index.html'
+  '/project2/index.html',
+  '/public/my-course/index.html',
+  '/public/my-course/css-grid/task/index.html',
+  '/public/my-course/css-grid/task/css/main.css',
+  '/public/my-course/css-grid/tutorial/index.html',
+  '/public/my-course/css-grid/tutorial/css/main.css'
 ];
 
 // Install SW
