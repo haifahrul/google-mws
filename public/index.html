@@ -14,7 +14,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#303f9f">
   <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.min.css">
   <title>AFS</title>
 </head>
 
@@ -67,7 +67,7 @@
   <script>
     (function () {
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/js/sw.js')
+        navigator.serviceWorker.register('/sw.js')
           .then(() => console.log('Service Worker Registered'))
           .catch((error) => console.log('Registration Failed', error))
       } else {
